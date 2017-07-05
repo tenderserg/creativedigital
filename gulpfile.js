@@ -14,9 +14,9 @@ var gulp = require('gulp'),
     fileinclude = require('gulp-file-include');
 
 // Bootstrap scss source
-// var bootstrapSass = {
-//         in: './node_modules/bootstrap-sass/'
-//     };
+var bootstrapSass = {
+        in: './node_modules/bootstrap-sass/'
+    };
 
 
 /* File includes */
@@ -34,13 +34,13 @@ gulp.task('html', function() {
 /* Compile SASS */
 gulp.task('styles', function () {
   return gulp.src('./dev/sass/**/*.scss')
-    // .pipe(sass({
-    //     outputStyle: 'nested',
-    //     precison: 3
-    //     // errLogToConsole: true,
-    //     // includePaths: [bootstrapSass.in + 'assets/stylesheets']
-    //     }).on('error', sass.logError))
-    .pipe(sass().on('error', sass.logError))
+    .pipe(sass({
+        outputStyle: 'nested',
+        precison: 3,
+        errLogToConsole: true,
+        includePaths: [bootstrapSass.in + 'assets/stylesheets']
+        }).on('error', sass.logError))
+    // .pipe(sass().on('error', sass.logError))
     .pipe(autoprefixer({browsers: ['last 4 versions']}))
     .pipe(gulp.dest('./prod/css'))
     .pipe(rename({suffix: '.min'}))
@@ -117,7 +117,7 @@ gulp.task('watch', ['browser-sync'], function() {
     gulp.watch('./dev/sass/**/*.scss', ['styles']);
     gulp.watch('./dev//**/*.html', ['html']);
     gulp.watch('./dev/js/main.js', ['scripts']);
-    gulp.watch('./dev/img/*.*', ['images']);
+    // gulp.watch('./dev/img/*.*', ['images']);
     // gulp.watch("*.html").on("change", browserSync.reload);
 });
 

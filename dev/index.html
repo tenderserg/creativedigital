@@ -7,11 +7,7 @@
 	<title>Creativedigital</title>
 	<link rel="icon" href="img/favicon.ico"/>
 	
-	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-	<!-- <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/> -->
-	
-	<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
@@ -58,37 +54,82 @@
 
 	<main>
 		<section id="about" class="slide-about">
-			<div class="container--nopad clearfix">
-				
-				<div class="slide-about__wrap-img">
-					<img class="slide-about__img" src="img/about-img.png" alt="slide-about__img">
+			<div class="container container--nopad">
+				<div class="row">
 
-					<div class="article">
-						<img class="article__img" src="img/Icon-AboutUs.png" alt="Icon-AboutUs.png">
-						<h2 class="article__title">About Us</h2>
+					<div class="wrapper-about col-md-4">
+						<div class="article">
+							<img class="article__img" src="img/Icon-AboutUs.png" alt="Icon-AboutUs">
+							<h2 class="article__title">About Us</h2>
+						</div>
 					</div>
-				</div>
 
-				<div class="slide-about__content">
-					<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-					<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-					<a href="#" class="btn btn--about">Learn More</a>
-				</div>
-												
+					<div class="col-md-7 col-md-offset-1">
+						<div class="slide-about__content">
+							<p>Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi porta gravida at eget metus. Donec ullamcorper nulla non metus auctor fringilla. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
+							<p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
+							<a href="#" class="btn btn--about">Learn More</a>
+						</div>	
+					</div>
+					
+				</div><!-- /.row -->												
 		 	</div> <!-- /.container_nopad -->
 		</section> <!-- /.slide-about -->
 
-		<section id="services" class="slide-servises">
-			<div class="container">
-			</div> <!-- /.container -->
-		</section> <!-- /.servises -->
+		<section id="services" class="slide-services">
+			<div class="container container--nopad">
+				<div class="row">
+					<div class="wrapper-services col-md-4 col-md-push-8">
+						<div class="article">
+							<img class="article__img" src="img/Icon-Services.png" alt="Icon-Services">
+							<h2 class="article__title">OuR SERVICES</h2>
+						</div>
+
+						<p class="blockquote">“Nullam quis risus eget urna mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.” <br> <span>- Borat -</span></p>
+					</div>
+					
+					<div class="grey-bg col-md-4 col-md-pull-4 col-sm-6">
+						<div class="description">
+							<img class="description__img" src="img/Icon-Graphic.png" alt="Icon-Graphic">
+							<h3 class="description__title">gRAPHIC DESIGN</h3>
+							<p class="description__desc">Cras mattis consectetur purus sit amet fermentum.</p>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-md-pull-4 col-sm-6">
+						<div class="description">
+							<img class="description__img" src="img/Icon-Web.png" alt="Icon-web">
+							<h3 class="description__title">WEB DEVELOPMENT</h3>
+							<p class="description__desc">Cras mattis consectetur purus sit amet fermentum.</p>
+						</div>
+					</div>
+
+					<div class="col-md-4 col-md-pull-4 col-sm-6">
+						<div class="description">
+							<img class="description__img" src="img/Icon-SEO.png" alt="Icon-seo">
+							<h3 class="description__title">SEO & MARKETING</h3>
+							<p class="description__desc">Cras mattis consectetur purus sit amet fermentum.</p>
+						</div>
+					</div>
+
+					<div class="grey-bg col-md-4 col-md-pull-4 col-sm-6">
+						<div class="description">
+							<img class="description__img" src="img/Icon-Mobile.png" alt="Icon-mobile">
+							<h3 class="description__title">MOBILE DEVELOPMENT</h3>
+							<p class="description__desc">Cras mattis consectetur purus sit amet fermentum.</p>
+						</div>
+					</div>
+
+				</div>
+			</div> <!-- /.container_nopad -->
+		</section> <!-- /.services -->
 
 
 		<section id="works" class="slide-works">
 			<div class="wrapper-slider-works">
 				<div class="container">
 					<div class="article">
-						<img class="article__img" src="img/Icon-Works.png" alt="Icon-Works.png">
+						<img class="article__img" src="img/Icon-Works.png" alt="Icon-Works">
 						<h2 class="article__title">RECENT WORKS</h2>
 					</div>
 
@@ -96,33 +137,25 @@
 					<div class="slider-works">
 						<div>
 							<div class="works-slide">
-								<!-- <div class="works-slide__wrapper-img"> -->
 								<img class="works-slide__img" src="img/works-slider.jpg" alt="slider-works-img">
-								<!-- </div> -->
 							</div>
 						</div>
 
 						<div>
 							<div class="works-slide">
-								<!-- <div class="works-slide__wrapper-img"> -->
 								<img class="works-slide__img" src="img/works-slider.jpg" alt="slider-works-img">
-								<!-- </div> -->
 							</div>
 						</div>
 
 						<div>
 							<div class="works-slide">
-								<!-- <div class="works-slide__wrapper-img"> -->
 								<img class="works-slide__img" src="img/works-slider.jpg" alt="slider-works-img">
-								<!-- </div> -->
 							</div>
 						</div>
 
 						<div>
 							<div class="works-slide">
-								<!-- <div class="works-slide__wrapper-img"> -->
 								<img class="works-slide__img" src="img/works-slider.jpg" alt="slider-works-img">
-								<!-- </div> -->
 							</div>
 						</div>
 
@@ -132,28 +165,343 @@
 				</div> <!-- /.container -->
 			</div><!-- /.wrapper-slider-works -->
 
-			
+			<div class="wrapper-slider-team">
+				<div class="container">
+					<div class="article">
+						<img class="article__img" src="img/Icon-Team.png" alt="Icon-Works">
+						<h2 class="article__title article__title--dark">mEET OUR tEAM</h2>
+					</div>
+
+					<!-- Для слайдера -->
+					<div class="slider-team">
+						<div>
+							<div class="team-slide">
+								<img class="team-slide__img" src="img/team-1.png" alt="team-1">
+								<h3 class="team-slide__name">Miguel Obrien</h3>
+								<p class="team-slide__position">CEO & Founder</p>
+
+								<div class="social-block social-block--team">
+									<a class="social-block__icon" href="http://www.behance.net/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-behance fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.linkedin.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://plus.google.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-google-plus fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div>
+							<div class="team-slide">
+								<img class="team-slide__img" src="img/team-2.png" alt="team-2">
+								<h3 class="team-slide__name">Jackie Carroll</h3>
+								<p class="team-slide__position">Art Director</p>
+
+								<div class="social-block social-block--team">
+									<a class="social-block__icon" href="http://www.behance.net/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-behance fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.linkedin.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://plus.google.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-google-plus fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div>
+							<div class="team-slide">
+								<img class="team-slide__img" src="img/team-3.png" alt="team-3">
+								<h3 class="team-slide__name">Ida Morrison</h3>
+								<p class="team-slide__position">Designer</p>
+
+								<div class="social-block social-block--team">
+									<a class="social-block__icon" href="http://www.behance.net/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-behance fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.linkedin.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://plus.google.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-google-plus fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div>
+							<div class="team-slide">
+								<img class="team-slide__img" src="img/team-1.png" alt="team-1">
+								<h3 class="team-slide__name">Miguel Obrien</h3>
+								<p class="team-slide__position">CEO & Founder</p>
+
+								<div class="social-block social-block--team">
+									<a class="social-block__icon" href="http://www.behance.net/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-behance fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.linkedin.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://plus.google.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-google-plus fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div>
+							<div class="team-slide">
+								<img class="team-slide__img" src="img/team-2.png" alt="team-2">
+								<h3 class="team-slide__name">Jackie Carroll</h3>
+								<p class="team-slide__position">Art Director</p>
+
+								<div class="social-block social-block--team">
+									<a class="social-block__icon" href="http://www.behance.net/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-behance fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.linkedin.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://plus.google.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-google-plus fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+
+							</div>
+						</div>
+
+						<div>
+							<div class="team-slide">
+								<img class="team-slide__img" src="img/team-3.png" alt="team-3">
+								<h3 class="team-slide__name">Ida Morrison</h3>
+								<p class="team-slide__position">Designer</p>
+
+								<div class="social-block social-block--team">
+									<a class="social-block__icon" href="http://www.behance.net/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-behance fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.linkedin.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-linkedin fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://plus.google.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-google-plus fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://www.facebook.com">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-facebook fa-stack-1x"></i>
+										</span>
+									</a>
+									<a class="social-block__icon" href="http://twitter.com/">
+										<span class="fa-stack">
+											<i class="fa fa-circle fa-stack-2x"></i>
+											<i class="fa fa-twitter fa-stack-1x"></i>
+										</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+					</div><!-- Конец ДЛя слайдера		 -->
+
+				</div> <!-- /.container -->
+			</div><!-- /.wrapper-slider-team -->
 		</section> <!-- /.slide-works -->
 
-		
+		<section id="contact" class="slide-contact">
+			<!-- для карты -->
+			<div id="map"></div>
+
+			<div class="wrapper-slide-contact">
+				<div class="container">
+					<div class="article">
+						<img class="article__img" src="img/Icon-contact.png" alt="Icon-contact">
+						<h2 class="article__title">gET IN tOUCH</h2>
+					</div>
+
+					<form name="form-contact" id="send_msg">
+
+						<input required id="name" type="text" name="name" placeholder="Your Name" value="">							
+						<input required id="email" type="email" name="email" placeholder="Your Email" value="">
+						<textarea class="msg" id="message" required name="message" placeholder="Your Message" rows="9"></textarea>
+						<button class="btn btn--msg" type="submit">sEND MESSAGE</button>
+					</form>
+				
+				<a class="btn btn--arrow-up" href="#home">
+					<span class="fa fa-angle-up"></span>
+				</a>	
+				</div> <!-- /.container -->
+			</div><!-- /.wrapper-slide-contact -->
+		</section> <!-- /.slide-contact -->
 
 	</main>
 
 	<footer class="footer">
-		
-		
-	</footer>
+		<div class="container">
+			<p class="copyright">&copy;2014 tulusdriyo. All Rights Reserved.</p>
 
+			<div class="social-block social-block--footer">
+				<a class="social-block__icon" href="http://www.behance.net/">
+					<span class="fa-stack">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-behance fa-stack-1x"></i>
+					</span>
+				</a>
+				<a class="social-block__icon" href="http://www.linkedin.com">
+					<span class="fa-stack">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-linkedin fa-stack-1x"></i>
+					</span>
+				</a>
+				<a class="social-block__icon" href="http://plus.google.com">
+					<span class="fa-stack">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-google-plus fa-stack-1x"></i>
+					</span>
+				</a>
+				<a class="social-block__icon" href="http://www.facebook.com">
+					<span class="fa-stack">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-facebook fa-stack-1x"></i>
+					</span>
+				</a>
+				<a class="social-block__icon" href="http://twitter.com/">
+					<span class="fa-stack">
+						<i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-twitter fa-stack-1x"></i>
+					</span>
+				</a>
+			</div>
+		</div> <!-- /.container -->
+	</footer>
 
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 	
-
-	<!-- Плагин для мягкой прокрутки скролом сайта -->
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.6/SmoothScroll.min.js"></script>
-	<!-- Плагин для Анимации совместно с Animate.css -->
-	<script src="js/wow.min.js"></script>
 	<script src="js/main.js"></script>
 
 </body>
